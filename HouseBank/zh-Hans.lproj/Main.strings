@@ -1,0 +1,54 @@
+
+/* Class = "IBUIButton"; normalTitle = "注册"; ObjectID = "1gH-Kq-cdC"; */
+"1gH-Kq-cdC.normalTitle" = "注册";
+
+/* Class = "IBUILabel"; text = "我的账号"; ObjectID = "2b3-ua-RHt"; */
+"2b3-ua-RHt.text" = "我的账号";
+
+/* Class = "IBUILabel"; text = "已有合发房银账号？"; ObjectID = "4bt-cW-Ib6"; */
+"4bt-cW-Ib6.text" = "已有合发房银账号？";
+
+/* Class = "IBUILabel"; text = "密码"; ObjectID = "CHU-8k-uZL"; */
+"CHU-8k-uZL.text" = "密码";
+
+/* Class = "IBUILabel"; text = "登录账户"; ObjectID = "GYR-TJ-WU5"; */
+"GYR-TJ-WU5.text" = "登录账户";
+
+/* Class = "IBUIButton"; normalTitle = "注册"; ObjectID = "NfM-47-fuW"; */
+"NfM-47-fuW.normalTitle" = "注册";
+
+/* Class = "IBUILabel"; text = "注册"; ObjectID = "OsH-Cg-mJv"; */
+"OsH-Cg-mJv.text" = "注册";
+
+/* Class = "IBUILabel"; text = "真实改名"; ObjectID = "QkL-ri-nS8"; */
+"QkL-ri-nS8.text" = "真实改名";
+
+/* Class = "IBUILabel"; text = "城市区域"; ObjectID = "Rhe-ol-ez8"; */
+"Rhe-ol-ez8.text" = "城市区域";
+
+/* Class = "IBUIButton"; normalTitle = "注册"; ObjectID = "S0L-eP-tMh"; */
+"S0L-eP-tMh.normalTitle" = "注册";
+
+/* Class = "IBUILabel"; text = "密码"; ObjectID = "TH2-zJ-AJR"; */
+"TH2-zJ-AJR.text" = "密码";
+
+/* Class = "IBUILabel"; text = "手机号(登录账号)"; ObjectID = "Usd-yS-cWe"; */
+"Usd-yS-cWe.text" = "手机号(登录账号)";
+
+/* Class = "IBUIButton"; normalTitle = "登录"; ObjectID = "ZIO-3a-dWf"; */
+"ZIO-3a-dWf.normalTitle" = "登录";
+
+/* Class = "IBUIButton"; normalTitle = "登录"; ObjectID = "han-Zq-7QX"; */
+"han-Zq-7QX.normalTitle" = "登录";
+
+/* Class = "IBUILabel"; text = "尚未登录,请先登录或注册"; ObjectID = "kLX-1V-qLl"; */
+"kLX-1V-qLl.text" = "尚未登录,请先登录或注册";
+
+/* Class = "IBUILabel"; text = "还没有合发房银账号？"; ObjectID = "sWn-cy-31y"; */
+"sWn-cy-31y.text" = "还没有合发房银账号？";
+
+/* Class = "IBUIButton"; normalTitle = "登录"; ObjectID = "x8H-ff-RZV"; */
+"x8H-ff-RZV.normalTitle" = "登录";
+
+/* Class = "IBUILabel"; text = "登录"; ObjectID = "yaG-dS-r7o"; */
+"yaG-dS-r7o.text" = "登录";

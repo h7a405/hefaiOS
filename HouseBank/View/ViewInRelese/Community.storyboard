@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--S-->
+        <scene sceneID="3YL-In-EJB">
+            <objects>
+                <navigationController id="nPD-qv-lMh" customClass="S" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0VT-s1-eWZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vob-Qu-ckZ" kind="relationship" relationship="rootViewController" id="sAV-ce-fxP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tW9-8u-hf3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285.86666666666667" y="-19.879999999999999"/>
+        </scene>
+        <!--选择小区-->
+        <scene sceneID="z5H-67-Ef9">
+            <objects>
+                <viewController storyboardIdentifier="SelectViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vob-Qu-ckZ" customClass="SelectViewController" customModule="HouseBank" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WNy-wZ-Ki9"/>
+                        <viewControllerLayoutGuide type="bottom" id="fkM-yt-nbP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bSc-mV-YZi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ewD-Yu-Qhg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SelectABCView" translatesAutoresizingMaskIntoConstraints="NO" id="9RF-aH-i5H" customClass="SelectABCView">
+                                <rect key="frame" x="295" y="94" width="20" height="350"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ewD-Yu-Qhg" firstAttribute="leading" secondItem="bSc-mV-YZi" secondAttribute="leadingMargin" constant="-16" id="VnI-3n-udg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ewD-Yu-Qhg" secondAttribute="trailing" constant="-16" id="ayZ-CV-s8Q"/>
+                            <constraint firstItem="fkM-yt-nbP" firstAttribute="top" secondItem="ewD-Yu-Qhg" secondAttribute="bottom" id="dJL-gm-gcl"/>
+                            <constraint firstItem="ewD-Yu-Qhg" firstAttribute="top" secondItem="WNy-wZ-Ki9" secondAttribute="bottom" constant="-64" id="pqR-pI-pcN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="选择小区" id="nTZ-1J-bzk"/>
+                    <connections>
+                        <outlet property="_abcView" destination="9RF-aH-i5H" id="eNe-Bh-tj3"/>
+                        <outlet property="_tableView" destination="ewD-Yu-Qhg" id="bIz-3w-bfH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GPS-wC-s71" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="714" y="-12"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

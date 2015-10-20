@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>end</key>
+		<string>0</string>
+		<key>begin</key>
+		<string>0</string>
+		<key>name</key>
+		<string>不限</string>
+	</dict>
+	<dict>
+		<key>end</key>
+		<string>3</string>
+		<key>begin</key>
+		<string>0</string>
+		<key>name</key>
+		<string>3元/平方.天 以下</string>
+	</dict>
+	<dict>
+		<key>end</key>
+		<string>4</string>
+		<key>begin</key>
+		<string>3</string>
+		<key>name</key>
+		<string>3-4元</string>
+	</dict>
+	<dict>
+		<key>end</key>
+		<string>5</string>
+		<key>begin</key>
+		<string>4</string>
+		<key>name</key>
+		<string>4-5元</string>
+	</dict>
+	<dict>
+		<key>end</key>
+		<string>6</string>
+		<key>begin</key>
+		<string>5</string>
+		<key>name</key>
+		<string>5-6元</string>
+	</dict>
+	<dict>
+		<key>end</key>
+		<string>8</string>
+		<key>begin</key>
+		<string>6</string>
+		<key>name</key>
+		<string>6-8元</string>
+	</dict>
+	<dict>
+		<key>end</key>
+		<string>10</string>
+		<key>begin</key>
+		<string>8</string>
+		<key>name</key>
+		<string>8-10元</string>
+	</dict>
+	<dict>
+		<key>end</key>
+		<string>0</string>
+		<key>begin</key>
+		<string>10</string>
+		<key>name</key>
+		<string>10元以上</string>
+	</dict>
+</array>
+</plist>

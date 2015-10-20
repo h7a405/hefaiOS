@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>11</key>
+		<string>东</string>
+	</dict>
+	<dict>
+		<key>10</key>
+		<string>南</string>
+	</dict>
+	<dict>
+		<key>9</key>
+		<string>西</string>
+	</dict>
+	<dict>
+		<key>8</key>
+		<string>北</string>
+	</dict>
+	<dict>
+		<key>7</key>
+		<string>南北</string>
+	</dict>
+	<dict>
+		<key>6</key>
+		<string>东西</string>
+	</dict>
+	<dict>
+		<key>5</key>
+		<string>东南</string>
+	</dict>
+	<dict>
+		<key>4</key>
+		<string>西南</string>
+	</dict>
+	<dict>
+		<key>3</key>
+		<string>东北</string>
+	</dict>
+	<dict>
+		<key>2</key>
+		<string>东北</string>
+	</dict>
+	<dict>
+		<key>1</key>
+		<string>不知道朝向</string>
+	</dict>
+</array>
+</plist>

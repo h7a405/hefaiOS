@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>end</key>
+		<string>0</string>
+		<key>begin</key>
+		<string>0</string>
+		<key>name</key>
+		<string>不限</string>
+	</dict>
+    
+    <dict>
+		<key>end</key>
+		<string>500</string>
+		<key>begin</key>
+		<string>0</string>
+		<key>name</key>
+		<string>500元以下</string>
+	</dict>
+    
+    <dict>
+		<key>end</key>
+		<string>1000</string>
+		<key>begin</key>
+		<string>500</string>
+		<key>name</key>
+		<string>500-1000元</string>
+	</dict>
+    
+    <dict>
+		<key>end</key>
+		<string>1500</string>
+		<key>begin</key>
+		<string>1000</string>
+		<key>name</key>
+		<string>1000-1500元</string>
+	</dict>
+    
+    <dict>
+		<key>end</key>
+		<string>2000</string>
+		<key>begin</key>
+		<string>1500</string>
+		<key>name</key>
+		<string>1500-2000元</string>
+	</dict>
+    
+    <dict>
+		<key>end</key>
+		<string>2500</string>
+		<key>begin</key>
+		<string>2000</string>
+		<key>name</key>
+		<string>2000-2500元</string>
+	</dict>
+    
+    <dict>
+		<key>end</key>
+		<string>3000</string>
+		<key>begin</key>
+		<string>2500</string>
+		<key>name</key>
+		<string>2500-3000元</string>
+	</dict>
+    
+    <dict>
+		<key>end</key>
+		<string>4000</string>
+		<key>begin</key>
+		<string>3000</string>
+		<key>name</key>
+		<string>3000-4000元</string>
+	</dict>
+    
+    <dict>
+		<key>end</key>
+		<string>8000</string>
+		<key>begin</key>
+		<string>4000</string>
+		<key>name</key>
+		<string>4000-8000元</string>
+	</dict>
+    
+    <dict>
+		<key>end</key>
+		<string>0</string>
+		<key>begin</key>
+		<string>8000</string>
+		<key>name</key>
+		<string>8000元以上</string>
+	</dict>
+</array>
+</plist>
